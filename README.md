@@ -7,6 +7,10 @@
 
 Отбор: все 1655 скиллов машины прогнаны через ревью по профилю задач (5 агентов + ручная редактура), см. [SKILLS-INVENTORY.md](SKILLS-INVENTORY.md).
 
+**Структура репозитория** (всё для ревью внутри, без внешних ссылок):
+- `skills/` — 128 скиллов Tier 1 (папки с SKILL.md и вложениями)
+- `plugins/` — 5 плагинов Tier 2: `superpowers`, `ui-ux-pro-max`, `diagram-design`, `effective-html`, `caveman`. Шестой, `anthropic-skills`, — это официальные `docx/pptx/pdf/xlsx-official` + `skill-creator`, они в `skills/`.
+
 **Источники (легенда колонки «Источник»):**
 - **edu** — [GarethManning/education-agent-skills](https://github.com/GarethManning/education-agent-skills), 165 education-скиллов
 - **anthropic** — [anthropics/skills](https://github.com/anthropics/skills), официальные скиллы Anthropic

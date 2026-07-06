@@ -1,0 +1,15 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Effective HTML",
+      "description": "Skills for generating pragmatic HTML diagrams and plans.",
+      "skills": [
+        "html",
+        "html-diagram",
+        "html-plan"
+      ]
+    }
+  ]
+}
